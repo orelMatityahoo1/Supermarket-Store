@@ -1,4 +1,4 @@
-# SupermarketStore
+# Supermarket online store
 > Supermarket store is an online store with special student benefits!
 
 ![Example screenshot](./img/supermarketStore.png)
