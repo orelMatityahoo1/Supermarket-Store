@@ -1,0 +1,39 @@
+{
+	"name": "supermarket_store",
+	"version": "1.0.0",
+	"description": "online shop",
+	"main": "index.js",
+	"directories": {
+		"test": "tests"
+	},
+	"scripts": {
+		"dev": "nodemon index.js",
+		"test": "jest --coverage",
+		"lint": "./node_modules/.bin/eslint ./",
+		"start": "node index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/morhasid/WebApp.git"
+	},
+	"author": "Orel",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/morhasid/WebApp/issues"
+	},
+	"homepage": "https://github.com/morhasid/WebApp#readme",
+	"devDependencies": {
+		"eslint": "^6.8.0",
+		"eslint-config-airbnb-base": "^14.1.0",
+		"eslint-plugin-import": "^2.20.2",
+		"jest": "^25.2.7",
+		"nodemon": "^2.0.3"
+	},
+	"dependencies": {
+		"body-parser": "^1.19.0",
+		"cookie-parser": "^1.4.5",
+		"ejs": "^3.1.2",
+		"express": "^4.17.1",
+		"mysql": "^2.18.1"
+	}
+}
